@@ -7,7 +7,6 @@ using namespace std;
 
 class punto2D {
 
-
     private:
 
         float mX;
@@ -37,7 +36,9 @@ class punto2D {
 
         friend ostream& operator<< (ostream& o, const punto2D&);
 
+        // Destructor.
         ~punto2D();
+
 };
 
 #endif // PUNTO2D_H

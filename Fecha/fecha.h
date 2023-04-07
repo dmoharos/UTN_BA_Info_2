@@ -7,10 +7,11 @@ using namespace std;
 
 class fecha {
 
+    private:
+
         int mDia;
         int mMes;
         int mAnio;
-
 
     public:
 

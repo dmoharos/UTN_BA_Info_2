@@ -39,7 +39,9 @@ class punto3D {
 
         friend ostream& operator<< (ostream& o, const punto3D&);
 
+        // Destructor.
         ~punto3D();
+
 };
 
 #endif // PUNTO3D_H
