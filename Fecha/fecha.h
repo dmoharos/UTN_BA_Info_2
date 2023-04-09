@@ -13,6 +13,12 @@ class fecha {
         int mMes;
         int mAnio;
 
+        bool esBisiesto(const int) const;
+        bool tiene28Dias(const int, const int) const;
+        bool tiene29Dias(const int, const int) const;
+        bool tiene30Dias(const int) const;
+        bool tiene31Dias(const int) const;
+
     public:
 
         // Constructores.
@@ -21,12 +27,6 @@ class fecha {
         // Metodos.
         void IncrementarDia(void);
         void ImprimirDia(void);
-
-        bool esBisiesto(int);
-        bool tiene28Dias(int, int);
-        bool tiene29Dias(int, int);
-        bool tiene30Dias(int);
-        bool tiene31Dias(int);
 
         friend ostream& operator<<(ostream&, const fecha&);
 
